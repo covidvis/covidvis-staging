@@ -15,8 +15,9 @@ function makePopulateInfoPageSpaceHandler(tabId){
 		infoPage.className = "infoPage";
 
 		var infoHeader = document.createElement("h3");
-		infoHeader.innerHTML = value;
+		infoHeader.innerHTML = value + " Intervention Details";
 		infoPage.appendChild(infoHeader);
+		infoPage.appendChild(document.createElement("hr"));
 
 		var infoList = document.createElement("ul");
 		infoList.innerHTML = stateDetails[value];
