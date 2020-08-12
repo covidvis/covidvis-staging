@@ -219,7 +219,7 @@
 <span style="width: 5px; float: left;">&nbsp;</span>
 <span class="button-group">
   <button class="button-left tablinks default-open" onclick="openTabs(event, '.tab-content-cases')">Cases</button>
-  <button class="button-right tablinks" onclick="openTabs(event, '.tab-content-deaths')">Deaths</button>
+  <button class="button-right tablinks" onclick="openTabs(event, '.tab-content-deaths')">Mortality</button>
 </span>
 </div>
 
@@ -259,12 +259,12 @@ them on the disease growth curves, shown above.</p>
 <p>
 As a first step towards understanding the impact of interventions, the
 visualization above shows the number of confirmed cases over time (on a
-log scale), for the 30 US States with the most confirmed cases of SARS-CoV-2.
+log scale), for the 30 US states with the most confirmed cases of SARS-CoV-2.
 We have overlaid trends with various countermeasures 
 taken by the governing entities. 
 We use icons (💼, 🏠, 👨‍👩‍👧‍👦, 🎓, 🍔, 🏬) to depict 
 these interventions; regional interventions are shown in smaller size than
-interventions that are more complete (either at the state level for US States, 
+interventions that are more encompassing (either at the state level for US States, 
 or at the country level for countries).
 For example, the icon 🏠 indicates a stay-at-home order or <a href="https://en.wikipedia.org/wiki/Curfews_and_lockdowns_related_to_the_2019%E2%80%9320_coronavirus_pandemic" target="_blank">lockdown</a>. 
 We invite the reader to reveal
@@ -277,7 +277,7 @@ or US states by switching between the
 and between the visualizations for
 confirmed cases or deaths 
 by switching between the <i>Cases</i>
-or <i>Deaths</i> tabs.
+or <i>Mortality</i> tabs.
 </p>
 
 <!--<p>
@@ -370,11 +370,9 @@ of the intervention, and then extending that post the intervention.</p>
 
 <p>While there are many COVID-19 visualization dashboards, including those that employ helpful log-linear extrapolation to understand the trends in various regions, we haven’t found any dashboards that try to visualize the overlaid visual impact of various intervention measures, apart from anecdotal reports of the <a href="https://www.nytimes.com/article/flatten-curve-coronavirus.html">curve being flattened</a> thanks to interventions. If there are any visualization dashboards that we should be aware of and can link to, please share them with us at <a href="mailto:covidvis@berkeley.edu">covidvis@berkeley.edu</a>.</p>
 
-<ul>
-  <li><em>What’s next for the project?</em></li>
-</ul>
+<!-- - *What's next for the project?*
 
-<p>The dashboards above simply scratch the surface of what can be and what needs to be done for this project. Apart from keeping our dashboards up-to-date on a regular basis, we’re continuing to collect, study, and visualize the impact of fine-grained interventions (specifically, the impact of various combinations of interventions, such as school closures, banning of gatherings, non-essential business closures, and so on). Beyond Wikipedia, we are aware of other data-gathering efforts on this front, such as those from <a href="https://www.keystonestrategy.com/coronavirus-covid19-intervention-dataset-model/">Keystone</a>, <a href="https://socialdistancing.stanford.edu/">Stanford</a> and <a href="https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker">Oxford</a>. We hope to leverage these datasets as well as others we manually collect to perform these analyses.</p>
+The dashboards above simply scratch the surface of what can be and what needs to be done for this project. Apart from keeping our dashboards up-to-date on a regular basis, we're continuing to collect, study, and visualize the impact of fine-grained interventions (specifically, the impact of various combinations of interventions, such as school closures, banning of gatherings, non-essential business closures, and so on). Beyond Wikipedia, we are aware of other data-gathering efforts on this front, such as those from [Keystone](https://www.keystonestrategy.com/coronavirus-covid19-intervention-dataset-model/), [Stanford](https://socialdistancing.stanford.edu/) and [Oxford](https://www.bsg.ox.ac.uk/research/research-projects/coronavirus-government-response-tracker). We hope to leverage these datasets as well as others we manually collect to perform these analyses.  -->
 
 <ul>
   <li><em>How can we reproduce the charts above?</em></li>
@@ -399,10 +397,9 @@ of the intervention, and then extending that post the intervention.</p>
 <h2 id="team">Team</h2>
 <p>Covidvis is a collaborative effort across computational epidemiology, public health, and visualization researchers at UC Berkeley (<a href="https://eecs.berkeley.edu/">EECS</a>,  <a href="https://bids.berkeley.edu/research/innovate-health">Innovate For Health Program</a>, <a href="https://www.ischool.berkeley.edu/">School of Information</a>, and <a href="https://publichealth.berkeley.edu/">School of Public Health</a>), University of Illinois (<a href="https://www.cs.illinois.edu/">Computer Science</a>), and Georgia Tech (<a href="https://cse.gatech.edu/">Computational Science and Engineering</a>).</p>
 
-<p>From the visualization side, the team includes <a href="http://dorisjunglinlee.com/">Doris Jung-Lin Lee</a> (UC Berkeley School of Information); <a href="https://smacke.net/">Stephen Macke</a> (University of Illinois Computer Science and UC Berkeley EECS); <a href="https://tichung.com/">Ti-Chung Cheng</a>, <a href="https://www.linkedin.com/in/tanawattanawaroon/">Tana Wattanawaroon</a>, and Pingjing Yang (University of Illinois Computer Science); and <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a> (UC Berkeley School of Information and EECS).</p>
+<p>From the visualization side, the team includes <a href="http://dorisjunglinlee.com/">Doris Jung-Lin Lee</a> (UC Berkeley School of Information); <a href="https://smacke.net/">Stephen Macke</a> (University of Illinois Computer Science and UC Berkeley EECS); <a href="https://www.linkedin.com/in/murtaza-ali-878973165/">Murtaza Ali</a> (UC Berkeley); <a href="https://tichung.com/">Ti-Chung Cheng</a>, <a href="https://www.linkedin.com/in/tanawattanawaroon/">Tana Wattanawaroon</a>, and Pingjing Yang (University of Illinois Computer Science); and <a href="https://people.eecs.berkeley.edu/~adityagp/">Aditya Parameswaran</a> (UC Berkeley School of Information and EECS).</p>
 
-<p>From the public health and epidemiology side, the team includes <a href="http://www.cc.gatech.edu/~badityap">B Aditya Prakash</a> (Georgia Tech Computational Science and Engineering) as well as <a href="https://bids.berkeley.edu/people/stephanie-eaneff">Stephanie Eaneff</a> (Data Science Health Innovation Fellow at UC Berkeley and UCSF). We’ve also benefited enormously from ideas and input from <a href="https://publichealth.berkeley.edu/people/ziad-obermeyer/">Ziad Obermeyer</a> (UC Berkeley School of Public Health).</p>
-
+<p>From the public health and epidemiology side, the team includes <a href="https://bids.berkeley.edu/people/stephanie-eaneff">Stephanie Eaneff</a> (Data Science Health Innovation Fellow at UC Berkeley and UCSF), <a href="https://www.cc.gatech.edu/people/alexander-rodriguez">Alexander Rodriguez</a> (Georgia Tech Computational Science and Engineering), <a href="http://people.cs.vt.edu/anikat1/">Anika Tabassum</a> (Virginia Tech Computer Science), as well as <a href="http://www.cc.gatech.edu/~badityap">B Aditya Prakash</a> (Georgia Tech Computational Science and Engineering). We’ve also benefited enormously from ideas and input from <a href="https://publichealth.berkeley.edu/people/ziad-obermeyer/">Ziad Obermeyer</a> (UC Berkeley School of Public Health).</p>
 
         
       </section>
@@ -472,7 +469,7 @@ of the intervention, and then extending that post the intervention.</p>
   &copy; 2020 The Covidvis team.
   Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp;
   <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.
-  Last modified April 28, 2020.
+  Last modified August 12, 2020.
 </div>
 
       </footer>
@@ -485,22 +482,6 @@ of the intervention, and then extending that post the intervention.</p>
     <script src="/covidvis-staging/js/chart_text.js"></script>
   
     <script src="/covidvis-staging/js/autogen/us_state_details.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_world_cases.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_world_deaths.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_us_cases.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_us_deaths.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_world_cases_mobile.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_world_deaths_mobile.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_us_cases_mobile.js"></script>
-  
-    <script src="/covidvis-staging/js/autogen/jhu_us_deaths_mobile.js"></script>
   
 
 
